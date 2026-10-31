@@ -178,7 +178,7 @@ paths:
   /catalog:
     get:
       operationId: getCatalog
-      summary: Read the live Brew Logic catalog
+      summary: Read the live Brew catalog
       responses:
         "200":
           description: Products and bundles
@@ -329,7 +329,7 @@ paths:
   /chat:
     post:
       operationId: sendChatMessage
-      summary: Ask the Brew Logic shop assistant
+      summary: Ask the Brew shop assistant
       requestBody:
         required: true
         content:

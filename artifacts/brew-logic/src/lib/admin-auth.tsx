@@ -59,7 +59,7 @@ export function AdminAuthProvider({ children }: { children: ReactNode }) {
       },
     }}
     localization={{
-      signIn: { start: { title: 'Brew Logic administration', subtitle: 'Sign in with your authorized store email' } },
+      signIn: { start: { title: 'Brew administration', subtitle: 'Sign in with your authorized store email' } },
       signUp: { start: { title: 'Create your store account', subtitle: 'Only the authorized store email can edit the catalog' } },
     }}>
     <AdminCacheInvalidator/>
@@ -68,12 +68,12 @@ export function AdminAuthProvider({ children }: { children: ReactNode }) {
 }
 
 export function SignInPage() {
-  return <main className="brew-auth-page"><Link href="/" className="brew-auth-back">← Back to Brew Logic</Link>
+  return <main className="brew-auth-page"><Link href="/" className="brew-auth-back">← Back to Brew</Link>
     <SignIn routing="path" path={`${basePath}/sign-in`} signUpUrl={`${basePath}/sign-up`} forceRedirectUrl={`${basePath}/admin`}/>
   </main>;
 }
 export function SignUpPage() {
-  return <main className="brew-auth-page"><Link href="/" className="brew-auth-back">← Back to Brew Logic</Link>
+  return <main className="brew-auth-page"><Link href="/" className="brew-auth-back">← Back to Brew</Link>
     <SignUp routing="path" path={`${basePath}/sign-up`} signInUrl={`${basePath}/sign-in`} forceRedirectUrl={`${basePath}/admin`}/>
   </main>;
 }

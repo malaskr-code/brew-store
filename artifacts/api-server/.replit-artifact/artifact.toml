@@ -1,7 +1,7 @@
 kind = "api"
 previewPath = "/api"
-title = "API (migrated into Brew Logic)"
-description = "Retired standalone API. All store endpoints are served by the Brew Logic Next.js web service."
+title = "API (migrated into Brew)"
+description = "Retired standalone API. All store endpoints are served by the Brew Next.js web service."
 version = "1.0.0"
 id = "3B4_FFSkEVBkAeYMFRJ2e"
 services = []

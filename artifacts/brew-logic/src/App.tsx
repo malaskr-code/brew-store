@@ -61,23 +61,22 @@ const copy = {
     productsTag: 'The working collection', productsTitle: 'Find your flow.',
     productsIntro: 'Good tools make the process clearer. Start with the part of your brew you want to understand better.',
     all: 'Everything', machines: 'Machines', beans: 'Beans', how: 'How it works', details: 'Details', add: 'Add to cart',
-    back: 'Back', origin: 'Origin', bagSize: 'Bag size', roaster: 'Roaster', roastedBy: 'Roasted in Kuwait by Brew Logic',
+    back: 'Back', origin: 'Origin', bagSize: 'Bag size', roaster: 'Roaster', roastedBy: 'Roasted in Kuwait by Brew',
     originUnlisted: 'Specific country not listed', description: 'Description', regularPrice: 'Regular price',
     bundlePrice: 'Bundle price', includedItems: 'Included items', price: 'Price', savings: 'You save',
     bundlesTag: 'Made to work together', bundlesTitle: 'A good place to begin.',
     bundlesIntro: 'Three combinations, considered from the first grind to the final pour. A little less to decide, a lot more to enjoy.',
     bundleNote: 'Included in this set', save: 'Save', addBundle: 'Add bundle to cart',
-    originTag: 'Close to home', originTitle: 'Roasted here. Brewed here.', originBanner: 'BREW LOGIC · KUWAIT',
-    originText: 'We roast the coffee in our shop right here in Kuwait. We choose coffees that invite curiosity and tools that help you get to know them, one cup at a time.',
-    originStat1: 'Coffee, roasted locally', originStat2: 'A cup at a time', originStat3: 'A considered collection',
+    originTag: 'Close to home', originTitle: 'Roasted here. Brewed here.', originBanner: 'BREW · KUWAIT',
+    originText: 'We roast the coffee in our shop right here in Kuwait.',
     contactTitle: 'A question about your next cup?', contactText: 'We would love to help you find the right setup.', contactButton: 'Get in touch',
     footerText: 'Coffee equipment and beans for the curious home brewer. Kuwait, made for your counter.',
-    shop: 'Shop', sayHello: 'Say hello', follow: 'Follow along', email: 'hello@brewlogic.com',
-    rights: '© 2025 Brew Logic · Kuwait', crafted: 'Engineer your cup',
+    shop: 'Shop', sayHello: 'Say hello', follow: 'Follow along', email: 'Email us',
+    rights: '© 2025 Brew · Kuwait', crafted: 'Engineer your cup',
     cart: 'Your cart', emptyTitle: 'Nothing brewing yet.', emptyText: 'Your next good cup starts with a tool or a bag of beans.', startShopping: 'Explore the collection',
     subtotal: 'Total', checkout: 'Continue to checkout', checkoutNote: 'Stripe test checkout is charged in USD. No real money will be charged.',
     remove: 'Remove', added: 'Added to your cart', bundleAdded: 'Bundle added to your cart',
-    close: 'Close', quantity: 'Quantity', productDetails: 'Product details', roasted: 'Roasted in Kuwait by Brew Logic',
+    close: 'Close', quantity: 'Quantity', productDetails: 'Product details', roasted: 'Roasted in Kuwait by Brew',
     themeLight: 'Switch to light theme', themeDark: 'Switch to dark theme', language: 'العربية', menu: 'Open menu',
     search: 'Search', searchPlaceholder: 'Search machines, beans, bundles...', clearSearch: 'Clear search', noSearchResults: 'No products found',
     categoryMachineSearch: 'Machines & tools', categoryBeanSearch: 'Coffee beans', favorites: 'Favorites', noFavorites: 'No favorites yet',
@@ -86,7 +85,7 @@ const copy = {
     currencyNote: 'Approximate display prices. Stripe test checkout is charged in USD.',
     currencyLocationNote: 'Currency set from your location.',
     categoryMachines: 'Coffee machines & tools', categoryBeans: 'Locally roasted coffee',
-    categoryMachineCopy: 'Thoughtful equipment that lets you get closer to the cup you want.', categoryBeansCopy: 'Freshly roasted in Kuwait by Brew Logic. Find a coffee worth slowing down for.',
+    categoryMachineCopy: 'Thoughtful equipment that lets you get closer to the cup you want.', categoryBeansCopy: 'Freshly roasted in Kuwait by Brew. Find a coffee worth slowing down for.',
     noProducts: 'Nothing in this collection yet.',
     catalogLoading: 'Loading the collection…', catalogError: 'The collection is unavailable. Please try again.', retry: 'Try again',
     equipment: 'Brew equipment', localRoast: '250g · Kuwait roasted', each: 'Each', bundle: 'Bundle', brewStage: 'CALIBRATE · POUR · REPEAT', figure: 'FIG. 01 / POUR-OVER SYSTEM',
@@ -102,23 +101,22 @@ const copy = {
     productsTag: 'مجموعة الأدوات', productsTitle: 'اكتشف طريقتك.',
     productsIntro: 'الأدوات الجيدة تجعل التحضير أوضح. ابدأ بالجزء الذي ترغب في فهمه أكثر.',
     all: 'الكل', machines: 'الأجهزة', beans: 'البن', how: 'كيف تعمل', details: 'التفاصيل', add: 'أضف إلى السلة',
-    back: 'رجوع', origin: 'المنشأ', bagSize: 'حجم الكيس', roaster: 'المحمصة', roastedBy: 'تحميص Brew Logic في الكويت',
+    back: 'رجوع', origin: 'المنشأ', bagSize: 'حجم الكيس', roaster: 'المحمصة', roastedBy: 'تحميص Brew في الكويت',
     originUnlisted: 'لم يُذكر بلد المنشأ', description: 'الوصف', regularPrice: 'السعر الأصلي',
     bundlePrice: 'سعر المجموعة', includedItems: 'محتويات المجموعة', price: 'السعر', savings: 'وفّرت',
     bundlesTag: 'اختيارات تكمل بعضها', bundlesTitle: 'بداية موفقة.',
     bundlesIntro: 'ثلاث مجموعات مدروسة من أول طحن إلى آخر صبّة. خيارات أقل، ومتعة أكثر.',
     bundleNote: 'تتضمن هذه المجموعة', save: 'وفّر', addBundle: 'أضف المجموعة إلى السلة',
-    originTag: 'من هنا', originTitle: 'تحميص محلي. وفنجانك أيضاً.', originBanner: 'Brew Logic · الكويت',
-    originText: 'نحمّص القهوة التي نقدمها في متجرنا هنا في الكويت. نختار حبوباً تثير الفضول وأدوات تساعدك على اكتشافها، فنجاناً بعد فنجان.',
-    originStat1: 'قهوة محمصة محلياً', originStat2: 'فنجاناً في كل مرة', originStat3: 'مجموعة مختارة بعناية',
+    originTag: 'من هنا', originTitle: 'تحميص محلي. وفنجانك أيضاً.', originBanner: 'Brew · الكويت',
+    originText: 'نحمّص القهوة في متجرنا هنا في الكويت.',
     contactTitle: 'لديك سؤال عن فنجانك القادم؟', contactText: 'يسعدنا مساعدتك في اختيار الأدوات المناسبة.', contactButton: 'تواصل معنا',
     footerText: 'أدوات قهوة وحبوب لعشاق التحضير في المنزل. من الكويت، لركن قهوتك.',
-    shop: 'تسوّق', sayHello: 'تواصل معنا', follow: 'تابعنا', email: 'hello@brewlogic.com',
-    rights: '© ٢٠٢٥ Brew Logic · الكويت', crafted: 'أتقن قهوتك',
+    shop: 'تسوّق', sayHello: 'تواصل معنا', follow: 'تابعنا', email: 'راسلنا عبر البريد الإلكتروني',
+    rights: '© ٢٠٢٥ Brew · الكويت', crafted: 'أتقن قهوتك',
     cart: 'سلتك', emptyTitle: 'لا شيء في السلة بعد.', emptyText: 'فنجانك القادم يبدأ بأداة أو كيس من البن.', startShopping: 'اكتشف المجموعة',
     subtotal: 'الإجمالي', checkout: 'متابعة إلى إتمام الطلب', checkoutNote: 'الدفع التجريبي عبر Stripe بالدولار الأمريكي. لن يتم تحصيل أي مبلغ حقيقي.',
     remove: 'إزالة', added: 'أُضيف إلى سلتك', bundleAdded: 'أُضيفت المجموعة إلى سلتك',
-    close: 'إغلاق', quantity: 'الكمية', productDetails: 'تفاصيل المنتج', roasted: 'تحميص Brew Logic في الكويت',
+    close: 'إغلاق', quantity: 'الكمية', productDetails: 'تفاصيل المنتج', roasted: 'تحميص Brew في الكويت',
     themeLight: 'التبديل إلى المظهر الفاتح', themeDark: 'التبديل إلى المظهر الداكن', language: 'English', menu: 'فتح القائمة',
     search: 'بحث', searchPlaceholder: 'ابحث عن الأجهزة أو البن أو المجموعات...', clearSearch: 'مسح البحث', noSearchResults: 'لم يتم العثور على منتجات',
     categoryMachineSearch: 'أجهزة وأدوات القهوة', categoryBeanSearch: 'حبوب القهوة', favorites: 'المفضلة', noFavorites: 'لا توجد عناصر في المفضلة بعد',
@@ -127,7 +125,7 @@ const copy = {
     currencyNote: 'أسعار العرض تقريبية. الدفع التجريبي عبر Stripe بالدولار الأمريكي.',
     currencyLocationNote: 'تم تحديد العملة حسب موقعك.',
     categoryMachines: 'أجهزة وأدوات القهوة', categoryBeans: 'قهوة محمصة محلياً',
-    categoryMachineCopy: 'أدوات مدروسة تقرّبك من الفنجان الذي تريده.', categoryBeansCopy: 'محمصة في الكويت بواسطة Brew Logic. اكتشف قهوة تستحق التمهل.',
+    categoryMachineCopy: 'أدوات مدروسة تقرّبك من الفنجان الذي تريده.', categoryBeansCopy: 'محمصة في الكويت بواسطة Brew. اكتشف قهوة تستحق التمهل.',
     noProducts: 'لا توجد منتجات في هذه المجموعة حالياً.',
     catalogLoading: 'جارٍ تحميل المجموعة…', catalogError: 'المجموعة غير متاحة الآن. يرجى المحاولة مرة أخرى.', retry: 'حاول مرة أخرى',
     equipment: 'أدوات التحضير', localRoast: '٢٥٠ غرام · تحميص محلي', each: 'للقطعة', bundle: 'مجموعة', brewStage: 'اضبط · اسكب · كرر', figure: 'الشكل ٠١ / تحضير بالتقطير',
@@ -188,8 +186,8 @@ function BrandMark({ className }: { className: string }) {
 }
 
 function Logo() {
-  return <Link href="/" className="brand" aria-label="Brew Logic home" data-testid="link-home">
-    <BrandMark className="brand-mark" /><span>Brew Logic</span>
+  return <Link href="/" className="brand" aria-label="Brew home" data-testid="link-home">
+    <BrandMark className="brand-mark" /><span>Brew</span>
   </Link>;
 }
 
@@ -490,8 +488,8 @@ function Hero({ t }: { t: typeof copy.en }) {
       <a href="#products" className="primary-button" data-testid="link-shop-now">{t.shopNow}<ArrowDown size={15}/></a>
       <div className="hero-note"><span><Check size={13}/></span>{t.detailNote}</div>
     </div>
-    <div className="hero-art" aria-label="Brew Logic logo" role="img">
-      <div className="hero-brand-lockup"><BrandMark className="hero-brand-mark"/><span>Brew Logic</span></div>
+    <div className="hero-art" aria-label="Brew logo" role="img">
+      <div className="hero-brand-lockup"><BrandMark className="hero-brand-mark"/><span>Brew</span></div>
     </div>
   </section>;
 }
@@ -526,9 +524,7 @@ function BundleSection({ t, language, onAdd, onDetails, favoriteIds, onToggleFav
 function OriginSection({ t }: { t: typeof copy.en }) {
   return <section className="container-wide origin-section">
     <div className="origin-art"><strong>LOCAL<br/>GROUND</strong><small>{t.originBanner}</small></div>
-    <div className="origin-copy"><div className="eyebrow">{t.originTag}</div><h2>{t.originTitle}</h2><p>{t.originText}</p>
-      <div className="origin-stat"><div><strong>250g</strong>{t.originStat1}</div><div><strong>01</strong>{t.originStat2}</div><div><strong>∞</strong>{t.originStat3}</div></div>
-    </div>
+    <div className="origin-copy"><div className="eyebrow">{t.originTag}</div><h2>{t.originTitle}</h2><p>{t.originText}</p></div>
   </section>;
 }
 
@@ -824,7 +820,7 @@ function Storefront() {
     </>}
     <Footer t={t}/>
     <ChatWidget language={language} onNavigate={rememberDetailReturn}/>
-    <a className="whatsapp" href="https://wa.me/96598858879" target="_blank" rel="noreferrer" aria-label="Contact Brew Logic on WhatsApp" data-testid="link-floating-whatsapp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L3 20l1.2-4.8A8.2 8.2 0 1 1 20.2 11.7Z" stroke="currentColor" strokeWidth="1.6"/><path d="M8.2 8.1c.3-.5.5-.5.8-.5h.5c.2 0 .4.1.5.5l.7 1.7c.1.3 0 .5-.2.7l-.5.6c-.2.2-.2.4-.1.6.4.8 1.3 1.6 2.2 2 .2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.7-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.2-.8 1.5-.6.4-1.3.5-2.1.3-.8-.2-1.9-.7-3.1-1.8-1.2-1.1-2-2.4-2.2-3.3-.2-.9 0-1.6.3-2.1Z" fill="currentColor"/></svg></a>
+    <a className="whatsapp" href="https://wa.me/96598858879" target="_blank" rel="noreferrer" aria-label="Contact Brew on WhatsApp" data-testid="link-floating-whatsapp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L3 20l1.2-4.8A8.2 8.2 0 1 1 20.2 11.7Z" stroke="currentColor" strokeWidth="1.6"/><path d="M8.2 8.1c.3-.5.5-.5.8-.5h.5c.2 0 .4.1.5.5l.7 1.7c.1.3 0 .5-.2.7l-.5.6c-.2.2-.2.4-.1.6.4.8 1.3 1.6 2.2 2 .2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.7-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.2-.8 1.5-.6.4-1.3.5-2.1.3-.8-.2-1.9-.7-3.1-1.8-1.2-1.1-2-2.4-2.2-3.3-.2-.9 0-1.6.3-2.1Z" fill="currentColor"/></svg></a>
     <CartDrawer open={cartOpen} close={() => setCartOpen(false)} items={cart} t={t} onQuantity={adjustQuantity} onRemove={removeItem} checkout={checkout}/>
     <FavoritesDrawer open={favoritesOpen} close={() => setFavoritesOpen(false)} items={favoriteItems} t={t} onAdd={addItem} onRemove={id => setFavoriteIds(old => old.filter(itemId => itemId !== id))}/>
     <div className={`toast-message${toast ? ' show' : ''}`} role="status" aria-live="polite" data-testid="status-toast">{toast}</div>

@@ -11,7 +11,7 @@ function BrandMark({ className = '' }: { className?: string }) {
 }
 
 export function Refined() {
-  return <section className="blhero-stage" aria-label="Brew Logic homepage hero">
+  return <section className="blhero-stage" aria-label="Brew homepage hero">
     <div className="blhero-container blhero-refined">
       <div className="blhero-refined-copy">
         <div className="blhero-eyebrow">Good coffee is a set of decisions</div>
@@ -23,9 +23,9 @@ export function Refined() {
         <div className="blhero-refined-note"><Check size={14}/>Tools for better mornings, chosen with care</div>
       </div>
 
-      <div className="blhero-card" role="img" aria-label="Brew Logic brew map: grind, water, and time">
+      <div className="blhero-card" role="img" aria-label="Brew brew map: grind, water, and time">
         <div className="blhero-card-top">
-          <div className="blhero-card-brand"><BrandMark/><span>Brew Logic</span></div>
+          <div className="blhero-card-brand"><BrandMark/><span>Brew</span></div>
           <span className="blhero-card-index">BREW MAP&nbsp; / &nbsp;01</span>
         </div>
         <p className="blhero-card-kicker">A BETTER CUP, BY DESIGN</p>

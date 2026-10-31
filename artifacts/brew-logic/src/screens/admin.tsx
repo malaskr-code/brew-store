@@ -298,7 +298,7 @@ function Shell({ children, signedIn }: { children: ReactNode; signedIn?: boolean
   const { signOut } = useClerk();
   return <div className="adm"><div className="adm-wrap">
     <header className="adm-top">
-      <Link href="/" className="adm-brand" data-testid="link-storefront"><Coffee size={20} color="var(--olive)" />Brew Logic <small>Catalog</small></Link>
+      <Link href="/" className="adm-brand" data-testid="link-storefront"><Coffee size={20} color="var(--olive)" />Brew <small>Catalog</small></Link>
       <div className="adm-actions">
         <Link href="/" className="adm-btn sm" data-testid="link-view-store">View storefront</Link>
         {signedIn && <button className="adm-btn sm" onClick={() => signOut({ redirectUrl: basePath || '/' })} data-testid="button-sign-out"><LogOut size={13} />Sign out</button>}
@@ -340,7 +340,7 @@ export default function AdminPage() {
     <div className="adm-state" data-testid="state-signed-out">
       <span className="adm-state-icon"><Lock size={22} /></span>
       <h2>Owner access only</h2>
-      <p>This page edits the live Brew Logic catalog. Sign in with the shop owner account to manage products and bundles. Other accounts can sign in but will not see the editor.</p>
+      <p>This page edits the live Brew catalog. Sign in with the shop owner account to manage products and bundles. Other accounts can sign in but will not see the editor.</p>
       <div className="adm-actions">
         <Link href="/sign-in" className="adm-btn primary" data-testid="link-sign-in">Sign in</Link>
         <Link href="/sign-up" className="adm-btn" data-testid="link-sign-up">Create account</Link>

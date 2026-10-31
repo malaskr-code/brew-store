@@ -1,4 +1,4 @@
-# Brew Logic: one Next.js app on Vercel
+# Brew: one Next.js app on Vercel
 
 The storefront and every `/api/*` endpoint now run inside the **same Next.js
 application**. No separate Express backend or Vercel Services configuration is

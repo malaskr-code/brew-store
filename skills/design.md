@@ -1,11 +1,11 @@
 ---
 name: brew-logic-conventions
-description: Use for any change to the Brew Logic store UI, products, translations, or theming.
+description: Use for any change to the Brew store UI, products, translations, or theming.
 ---
 
-# Brew Logic conventions
+# Brew conventions
 
-- Brand: Brew Logic. Slogan "Engineer your cup". Beans are roasted in Kuwait by Brew Logic. Never mention other roasters.
+- Brand: Brew. Slogan "Engineer your cup". Beans are roasted in Kuwait by Brew. Never mention other roasters.
 - Fonts: Space Grotesk headings, Inter body, IBM Plex Sans Arabic for Arabic.
 - Light mode (default): background #F5EFE6, cards #FBF8F2, text #2B1D14, olive #6B7A3A.
 - Dark mode: background #1C1410, cards #2A1F18, text #F2E8DA, accent #9AA85A.

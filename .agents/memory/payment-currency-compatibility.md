@@ -8,7 +8,7 @@ store's display currency can be used for checkout. Ask the user before changing
 the charge currency; a currency switcher is not permission to change settlement
 or checkout behavior.
 
-For Brew Logic, keep catalog/display prices in KWD and use USD for **Stripe test
+For Brew, keep catalog/display prices in KWD and use USD for **Stripe test
 checkout only**, with the exact server-calculated USD total shown for confirmation
 before redirecting to Stripe.
 

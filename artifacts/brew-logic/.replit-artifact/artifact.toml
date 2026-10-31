@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Brew Logic"
+title = "Brew"
 description = "A full-stack Next.js Kuwait coffee store: frontend and API in one app, live MongoDB catalog, bcrypt/JWT customer accounts, separate Clerk-protected owner editing, cart, favorites, AI assistant, currency conversion, Arabic/English and light/dark modes. Checkout is a demo."
 version = "1.0.0"
 id = "artifacts/brew-logic"

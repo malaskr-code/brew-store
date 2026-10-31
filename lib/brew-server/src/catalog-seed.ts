@@ -9,10 +9,10 @@ const arabic: Record<string, { description: string; why: string }> = {
   'eureka-filtro': { description: 'مطحنة مخصصة للقهوة المقطرة بمحرك هادئ وفعّال.', why: 'تنتج الشفرات الفولاذية المسطحة حبوباً متجانسة تساعد على استخلاص واضح ومتوازن.' },
   'stagg-ekg': { description: 'صب دقيق، ودرجة حرارة بين يديك.', why: 'يحافظ متحكم PID على درجة الحرارة المحددة، وفوهة الصب المتوازنة تجعل التحكم طبيعياً.' },
   'hario-scale': { description: 'قياسان مفيدان، في أداة واحدة.', why: 'يزن القهوة والماء بينما يتابع المؤقت المدمج مدة كل صبّة.' },
-  konga: { description: '٢٥٠ غرام · تحميص Brew Logic في الكويت', why: 'قهوة إثيوبية معبّرة، محمصة محلياً لإبراز نكهتها الحيوية ومتعددة الطبقات.' },
-  webanchi: { description: '٢٥٠ غرام · تحميص Brew Logic في الكويت', why: 'قهوة إثيوبية محمصة بعناية، بفنجان عطري مشرق ونهاية حلوة طويلة.' },
-  'caramel-candy': { description: '٢٥٠ غرام · تحميص Brew Logic في الكويت', why: 'خلطة يومية مريحة بحلاوة متوازنة تناسب طرق التحضير المختلفة.' },
-  'brazil-samba': { description: '٢٥٠ غرام · تحميص Brew Logic في الكويت', why: 'قهوة برازيلية سلسة، محمصة لفنجان حلو وموثوق كل صباح.' },
+  konga: { description: '٢٥٠ غرام · تحميص Brew في الكويت', why: 'قهوة إثيوبية معبّرة، محمصة محلياً لإبراز نكهتها الحيوية ومتعددة الطبقات.' },
+  webanchi: { description: '٢٥٠ غرام · تحميص Brew في الكويت', why: 'قهوة إثيوبية محمصة بعناية، بفنجان عطري مشرق ونهاية حلوة طويلة.' },
+  'caramel-candy': { description: '٢٥٠ غرام · تحميص Brew في الكويت', why: 'خلطة يومية مريحة بحلاوة متوازنة تناسب طرق التحضير المختلفة.' },
+  'brazil-samba': { description: '٢٥٠ غرام · تحميص Brew في الكويت', why: 'قهوة برازيلية سلسة، محمصة لفنجان حلو وموثوق كل صباح.' },
 };
 
 const details: Record<string, { en: string; ar: string }> = {
@@ -33,13 +33,13 @@ export const seedProducts: Product[] = products.map(product => {
   return {
     ...product,
     descriptionAr: arabic[product.id]?.description ?? '',
-    whyAr: product.category === 'bean' ? 'تحميص Brew Logic في الكويت' : arabic[product.id]?.why ?? '',
-    why: product.category === 'bean' ? 'Roasted in Kuwait by Brew Logic' : product.why,
+    whyAr: product.category === 'bean' ? 'تحميص Brew في الكويت' : arabic[product.id]?.why ?? '',
+    why: product.category === 'bean' ? 'Roasted in Kuwait by Brew' : product.why,
     origin: origin?.en ?? '',
     originAr: origin?.ar ?? '',
     bagSize: product.category === 'bean' ? '250g' : '',
-    detailDescription: details[product.id]?.en ?? `The listed origin for this coffee is ${origin?.en}. This 250g bag is roasted in Kuwait by Brew Logic. The product information does not include tasting notes.`,
-    detailDescriptionAr: details[product.id]?.ar ?? `المنشأ المسجل لهذه القهوة هو ${origin?.ar}. يحتوي الكيس على ٢٥٠ غراماً، وتحمّصه Brew Logic في الكويت. لا تتضمن معلومات المنتج ملاحظات تذوق.`,
+    detailDescription: details[product.id]?.en ?? `The listed origin for this coffee is ${origin?.en}. This 250g bag is roasted in Kuwait by Brew. The product information does not include tasting notes.`,
+    detailDescriptionAr: details[product.id]?.ar ?? `المنشأ المسجل لهذه القهوة هو ${origin?.ar}. يحتوي الكيس على ٢٥٠ غراماً، وتحمّصه Brew في الكويت. لا تتضمن معلومات المنتج ملاحظات تذوق.`,
   };
 });
 const bundleNotes = ['طقس صباحي متكامل، جاهز لتبدأ يومك.', 'تحضير يومي موثوق، مع مساحة للاكتشاف.', 'أساسيات التقطير لصبّة مدروسة.'];

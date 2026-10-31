@@ -893,7 +893,7 @@ export const getGetCatalogUrl = () => {
 }
 
 /**
- * @summary Read the live Brew Logic catalog
+ * @summary Read the live Brew catalog
  */
 export const getCatalog = async ( options?: Parameters<typeof customFetch>[1]): Promise<CatalogResponse> => {
 
@@ -940,7 +940,7 @@ export type GetCatalogQueryError = ErrorType<void>
 
 
 /**
- * @summary Read the live Brew Logic catalog
+ * @summary Read the live Brew catalog
  */
 
 export function useGetCatalog<TData = Awaited<ReturnType<typeof getCatalog>>, TError = ErrorType<void>>(
@@ -1459,7 +1459,7 @@ export const getSendChatMessageUrl = () => {
 }
 
 /**
- * @summary Ask the Brew Logic shop assistant
+ * @summary Ask the Brew shop assistant
  */
 export const sendChatMessage = async (chatInput: ChatInput, options?: Parameters<typeof customFetch>[1]): Promise<ChatReply> => {
 
@@ -1525,7 +1525,7 @@ const {mutation: mutationOptions, request: requestOptions} = options ?
     export type SendChatMessageMutationVariables = {data: BodyType<ChatInput>}
 
     /**
- * @summary Ask the Brew Logic shop assistant
+ * @summary Ask the Brew shop assistant
  */
 export const useSendChatMessage = <TError = ErrorType<ChatReply>,
     TContext = unknown>(options?: { mutation?:UseMutationOptions<Awaited<ReturnType<typeof sendChatMessage>>, TError,SendChatMessageMutationVariables, TContext>, request?: SecondParameter<typeof customFetch>}

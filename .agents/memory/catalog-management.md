@@ -1,6 +1,6 @@
 ---
 name: Catalog management
-description: User-approved database and editing approach for Brew Logic's catalog.
+description: User-approved database and editing approach for Brew's catalog.
 ---
 
 Use MongoDB for the product and bundle catalog, with a private admin editor.

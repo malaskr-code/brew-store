@@ -10,7 +10,7 @@ type StoredMessage = ChatMessage & { failed?: boolean };
 const STORAGE_KEY = 'brew-chat-conversation';
 const text = {
   en: {
-    title: 'Brew Logic Assistant', open: 'Open shop assistant', close: 'Close assistant',
+    title: 'Brew Assistant', open: 'Open shop assistant', close: 'Close assistant',
     placeholder: 'Ask about coffee or our products...', send: 'Send message', typing: 'Thinking...',
     disclaimer: 'AI assistant. Answers may contain mistakes.',
     busy: "I'm busy right now. Try again in a minute.",
@@ -18,7 +18,7 @@ const text = {
     starters: ['Which machine grinds coffee?', 'Recommend a machine under 100 KWD', 'Which beans should I start with?'],
   },
   ar: {
-    title: 'مساعد Brew Logic', open: 'فتح مساعد المتجر', close: 'إغلاق المساعد',
+    title: 'مساعد Brew', open: 'فتح مساعد المتجر', close: 'إغلاق المساعد',
     placeholder: 'اسأل عن القهوة أو منتجاتنا...', send: 'إرسال الرسالة', typing: 'جارٍ التفكير...',
     disclaimer: 'مساعد بالذكاء الاصطناعي. قد تحتوي الإجابات على أخطاء.',
     busy: 'أنا مشغول الآن. حاول مرة أخرى بعد دقيقة.',

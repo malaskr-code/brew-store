@@ -1,9 +1,9 @@
 ---
 name: Change scope
-description: The user's repeated scope constraint for Brew Logic changes.
+description: The user's repeated scope constraint for Brew changes.
 ---
 
-For Brew Logic requests: “Do not change anything else.”
+For Brew requests: “Do not change anything else.”
 
 **Why:** The user repeatedly requires each storefront update to stay within the changes they specify.
 

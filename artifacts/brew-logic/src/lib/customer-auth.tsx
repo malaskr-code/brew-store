@@ -20,10 +20,10 @@ const REQ = { credentials: 'same-origin' as RequestCredentials };
 const text = {
   en: {
     loginTitle: 'Welcome back.', loginLead: 'Log in to keep your brewing setup within reach.',
-    signupTitle: 'Open an account.', signupLead: 'A Brew Logic account for considered home brewing in Kuwait.',
+    signupTitle: 'Open an account.', signupLead: 'A Brew account for considered home brewing in Kuwait.',
     name: 'Full name', email: 'Email', password: 'Password', passwordHint: 'At least 8 characters.',
     login: 'Log In', signup: 'Sign Up', loggingIn: 'Logging in…', signingUp: 'Creating account…',
-    noAccount: 'New to Brew Logic?', haveAccount: 'Already have an account?', back: 'Back to the shop',
+    noAccount: 'New to Brew?', haveAccount: 'Already have an account?', back: 'Back to the shop',
     account: 'Account', logout: 'Log Out', loggingOut: 'Logging out…', signedInAs: 'Signed in as',
     show: 'Show password', hide: 'Hide password', theme: 'Toggle theme', lang: 'العربية',
     eyebrowLogin: 'Customer account', eyebrowSignup: 'New customer',
@@ -37,10 +37,10 @@ const text = {
   },
   ar: {
     loginTitle: 'أهلاً بعودتك.', loginLead: 'سجّل الدخول لتبقى أدوات تحضيرك في متناولك.',
-    signupTitle: 'أنشئ حسابك.', signupLead: 'حساب Brew Logic لعشاق التحضير المنزلي في الكويت.',
+    signupTitle: 'أنشئ حسابك.', signupLead: 'حساب Brew لعشاق التحضير المنزلي في الكويت.',
     name: 'الاسم الكامل', email: 'البريد الإلكتروني', password: 'كلمة المرور', passwordHint: '٨ أحرف على الأقل.',
     login: 'تسجيل الدخول', signup: 'إنشاء حساب', loggingIn: 'جارٍ تسجيل الدخول…', signingUp: 'جارٍ إنشاء الحساب…',
-    noAccount: 'جديد على Brew Logic؟', haveAccount: 'لديك حساب بالفعل؟', back: 'العودة إلى المتجر',
+    noAccount: 'جديد على Brew؟', haveAccount: 'لديك حساب بالفعل؟', back: 'العودة إلى المتجر',
     account: 'الحساب', logout: 'تسجيل الخروج', loggingOut: 'جارٍ تسجيل الخروج…', signedInAs: 'مسجّل باسم',
     show: 'إظهار كلمة المرور', hide: 'إخفاء كلمة المرور', theme: 'تبديل المظهر', lang: 'English',
     eyebrowLogin: 'حساب العميل', eyebrowSignup: 'عميل جديد',
@@ -247,7 +247,7 @@ function AuthShell({ mode, children, t, prefs }: { mode: 'login' | 'signup'; chi
     <main className="ca-grid">
       <aside className="ca-art" aria-hidden="true">
         <div className="ca-rings"/>
-        <div className="ca-lockup"><Mark/><span>Brew Logic</span></div>
+        <div className="ca-lockup"><Mark/><span>Brew</span></div>
         <small>{language === 'ar' ? 'اضبط · اسكب · كرر' : 'CALIBRATE · POUR · REPEAT'}</small>
       </aside>
       <section className="ca-card">

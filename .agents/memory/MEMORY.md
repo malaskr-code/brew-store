@@ -1,4 +1,4 @@
-- [Change scope](change-scope.md) — Keep Brew Logic changes limited to the user's requested feature; do not change anything else.
+- [Change scope](change-scope.md) — Keep Brew changes limited to the user's requested feature; do not change anything else.
 - [Catalog management](catalog-management.md) — The user chose MongoDB and a private admin editor for products and bundles.
 - [Account boundaries](account-boundaries.md) — MongoDB/JWT customer accounts remain separate from verified Clerk owner access.
 - [Preview compatibility](preview-compatibility.md) — A local screenshot can pass while host-restricted framework loaders fail on the actual proxied preview.

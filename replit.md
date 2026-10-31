@@ -1,4 +1,6 @@
-# Brew Logic
+# Brew
+
+- Public-facing store name: Brew. Keep “Brew” in English in Arabic copy, and preserve technical slugs, package names, database names, and environment-variable keys.
 
 A Kuwait coffee store with a live MongoDB catalog, customer accounts, a private
 owner editor, cart, favorites, currency conversion, and a coffee assistant.

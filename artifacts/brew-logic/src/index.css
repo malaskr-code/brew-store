@@ -394,7 +394,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .product-card { border:1px solid var(--line);background:var(--surface);min-width:0;transition:transform .25s,box-shadow .25s; }
 .product-card:hover { transform:translateY(-5px);box-shadow:0 16px 30px #2b1d1412; }
 .product-visual { height:220px;position:relative;display:grid;place-items:center;background:color-mix(in srgb,var(--paper) 66%,var(--surface));overflow:hidden; }
-.product-visual:before { content:"";position:absolute;width:172px;height:172px;border:1px solid var(--line);border-radius:50%; }
 .visual-tag { position:absolute;top:14px;left:14px;font:500 9px 'Inter';letter-spacing:.12em;text-transform:uppercase;opacity:.53; }
 .product-visual.has-photo .visual-tag { z-index:2; }
 .product-photo { position:relative;z-index:1;width:100%;height:100%;object-fit:contain; }
@@ -415,8 +414,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .device.scale:before { content:"00:00";position:absolute;top:8px;left:28px;color:#d5d9ae;font:12px monospace;letter-spacing:2px; }
 .device.scale:after { content:"";position:absolute;left:7px;right:7px;bottom:8px;height:12px;border-top:1px solid #858170; }
 .device.bag { width:95px;height:137px;background:linear-gradient(100deg,#7a8052,#9b9a66 48%,#74784a);clip-path:polygon(8% 7%,92% 7%,100% 100%,0 100%);border-radius:8px; }
-.device.bag:before { content:"BREW LOGIC";position:absolute;top:53px;left:20px;color:#f4eddb;font:600 10px 'Space Grotesk';letter-spacing:2px; }
-.device.bag:after { content:"COFFEE / KUWAIT";position:absolute;top:70px;left:17px;color:#f4eddb;font:7px 'Inter';letter-spacing:1px; }
+.device.bag:before { content:"BREW · KUWAIT";position:absolute;top:53px;left:17px;color:#f4eddb;font:600 8px 'Space Grotesk';letter-spacing:1px; }
+.device.bag:after { content:"";position:absolute;top:70px;left:17px;color:#f4eddb;font:7px 'Inter';letter-spacing:1px; }
 .product-info { padding:17px 16px 15px; }
 .product-kicker { font:500 9px 'Inter';letter-spacing:.12em;text-transform:uppercase;color:var(--olive); }
 .product-title-line { min-height:44px;display:flex;justify-content:space-between;gap:6px;align-items:flex-start;margin-top:8px; }
@@ -451,8 +450,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .origin-art small { position:absolute;bottom:19px;left:20px;color:#f5efe6;font:9px 'Inter';letter-spacing:.2em;text-transform:uppercase; }
 .origin-copy h2 { font:500 clamp(37px,4.5vw,58px)/.98 'Space Grotesk';letter-spacing:-.07em;margin:16px 0 20px; }
 .origin-copy p { max-width:475px;font-size:12px;line-height:1.9;opacity:.7; }
-.origin-stat { margin-top:28px;display:flex;gap:27px;font:10px 'Inter';letter-spacing:.06em; }
-.origin-stat strong { display:block;font:600 22px 'Space Grotesk';margin-bottom:4px; }
 .contact-band { padding:35px 0;background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line); }
 .contact-inner { display:flex;align-items:center;justify-content:space-between;gap:22px; }
 .contact-inner h2 { font:500 28px 'Space Grotesk';letter-spacing:-.05em;margin:0; }

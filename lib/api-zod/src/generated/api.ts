@@ -254,7 +254,7 @@ export const GetCustomerSessionResponse = zod.object({
 
 
 /**
- * @summary Read the live Brew Logic catalog
+ * @summary Read the live Brew catalog
  */
 export const getCatalogResponseProductsItemIdMax = 80;
 
@@ -801,7 +801,7 @@ export const GetExchangeRatesResponse = zod.object({
 
 
 /**
- * @summary Ask the Brew Logic shop assistant
+ * @summary Ask the Brew shop assistant
  */
 export const sendChatMessageBodyMessagesItemContentMax = 500;
 
